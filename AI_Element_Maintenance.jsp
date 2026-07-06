@@ -3,7 +3,7 @@
 * ALL RIGHTS RESERVED
 * @Program: AI_Element_Maintenance.jsp
 * @Description: it is used to Add new record or Update the record in AI Element
-* @Developer: Xingji Yan
+* @Developer: ashutosh jena 
 * @Date: Feb 03, 2025
 ** @MODIFICATIONS:
 * nn. - xxxxxxxxx
