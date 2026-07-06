@@ -1,0 +1,1 @@
+console.log("Practice log from junioraj99 - git tutorial");
