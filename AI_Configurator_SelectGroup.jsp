@@ -119,13 +119,6 @@ button {
 		form.submit();
 	}
 	
-	$( document ).ready(function() {
-		var entityGrid = $(".row").data("kendoGrid");
-		var rowSelect = entityGrid.select();
-		console.log(rowSelect);
-	});
-
-	generateKendoGrid();
 	function generateKendoGrid(){
 
 		kendo.ui.progress($("#container"), true);
@@ -200,7 +193,11 @@ button {
 			}
 			
 		});
-	} 
+	}
+
+	$(document).ready(function() {
+		generateKendoGrid();
+	});
 
 	function headerChangeLanguage(){ 
 	   $.ajax({
